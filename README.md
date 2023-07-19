@@ -15,3 +15,5 @@ $ npm run docker:down
 # restart docker container
 $ npm run docker:restart
 ```
+
+Then open [http://localhost:8003](http://localhost:8003) to view it in the browser.
