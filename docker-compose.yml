@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  host:
+    container_name: explorer-proxy
+    environment:
+      - PORT
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "$PORT:$PORT"
